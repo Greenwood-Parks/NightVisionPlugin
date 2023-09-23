@@ -1,0 +1,14 @@
+name: NightVision
+version: '${project.version}'
+main: net.greenwoodmc.nightvision.NightVision
+api-version: 1.20
+authors: [ VoidemLIVE ]
+description: /nv command
+website: https://greenwoodmc.net
+
+commands:
+  nightvision:
+    description: Night vision
+    aliases: [nightvision, nv]
+    permission: gwnv.use
+    default: false
